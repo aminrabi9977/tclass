@@ -1,0 +1,16 @@
+2025-06-01 09:06:32,116 - __main__ - INFO - Processing HTML content string
+2025-06-01 09:06:32,119 - src.data_extraction.html_parser - INFO - Found 1 tender containers
+2025-06-01 09:06:32,123 - src.data_extraction.tender_extractor - INFO - Successfully extracted 1 tenders
+2025-06-01 09:06:32,156 - src.data_processing.excel_handler - ERROR - Error saving to Excel: Alignment.__init__() got an unexpected keyword argument 'reading_order'
+2025-06-01 09:20:57,557 - __main__ - INFO - Processing HTML content string
+2025-06-01 09:20:57,559 - src.data_extraction.html_parser - INFO - Found 1 tender containers
+2025-06-01 09:20:57,563 - src.data_extraction.tender_extractor - INFO - Successfully extracted 1 tenders
+2025-06-01 09:20:57,566 - src.data_processing.excel_handler - ERROR - Error saving to Excel: Alignment.__init__() got an unexpected keyword argument 'reading_order'
+2025-06-01 09:21:35,493 - __main__ - INFO - Processing HTML content string
+2025-06-01 09:21:35,495 - src.data_extraction.html_parser - INFO - Found 1 tender containers
+2025-06-01 09:21:35,497 - src.data_extraction.tender_extractor - INFO - Successfully extracted 1 tenders
+2025-06-01 09:21:35,520 - src.data_processing.excel_handler - INFO - Successfully saved 1 tenders to data\output\extracted\demo_tenders_20250601_092135.xlsx
+2025-06-01 09:21:35,563 - src.data_processing.excel_handler - INFO - Successfully created summary sheet in data\output\extracted\demo_tenders_20250601_092135.xlsx
+2025-06-01 09:21:35,563 - __main__ - INFO - ✅ Successfully processed 1 tenders
+2025-06-01 09:21:35,564 - __main__ - INFO - 📄 Output saved to: data\output\extracted\demo_tenders_20250601_092135.xlsx
+2025-06-01 09:21:35,586 - src.data_processing.excel_handler - INFO - Excel validation completed for data\output\extracted\demo_tenders_20250601_092135.xlsx
