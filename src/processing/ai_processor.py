@@ -1,5 +1,4 @@
-# aa-KkbfF2OSHANdZU5EWgkfeeSPuFfQlxXICdZ3c6w34NQ1b9Gi
-# https://api.avalai.ir/v1
+
 """
 AI Processor module for filtering tender data using a language model.
 """
