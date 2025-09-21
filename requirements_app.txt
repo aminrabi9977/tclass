@@ -1,3 +1,84 @@
+# # Core Dependencies for Tender Processing System
+# # Location: requirements.txt (project root)
+
+# # HTML Parsing
+# beautifulsoup4>=4.12.0
+# lxml>=4.9.0
+# streamlit>=1.41.0
+# # Excel Processing  
+# pandas>=2.0.0
+# openpyxl>=3.1.0
+# xlsxwriter>=3.1.0
+
+# # Data Processing
+# numpy>=1.24.0
+
+# # File Handling
+# pathlib2>=2.3.7
+
+# # Logging
+# loguru>=0.7.0
+
+# # Environment Management
+# python-dotenv>=1.0.0
+
+# # HTTP Requests (for future API integrations)
+# requests>=2.31.0
+
+# # Date/Time Processing
+# python-dateutil>=2.8.0
+
+# # AI Integration (Optional - install based on chosen provider)
+# # openai>=1.0.0              # For OpenAI GPT models
+# # anthropic>=0.7.0           # For Claude models  
+# # langchain>=0.1.0           # For LangChain framework
+
+# # Email Automation (Windows - for Outlook integration)
+# # pywin32>=306               # Windows COM automation
+# # exchangelib>=5.0.0         # Exchange/Outlook integration
+
+# # Alternative Email (Cross-platform)
+# # smtplib                    # Built-in Python module
+# # email-validator>=2.0.0    # Email validation
+
+# # Testing
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+
+# # Development Tools  
+# black>=23.0.0               # Code formatting
+# flake8>=6.0.0              # Code linting
+# mypy>=1.5.0                # Type checking
+
+# # Optional: Advanced Features
+# schedule>=1.2.0            # Task scheduling
+# watchdog>=3.0.0            # File system monitoring
+# tqdm>=4.65.0               # Progress bars    
+# # Web Application Requirements
+# # Add these to your existing requirements.txt
+
+# # Core web framework
+# streamlit-option-menu>=0.3.6
+
+# # UI components
+
+# plotly>=5.17.0
+
+# # Performance optimization
+# # streamlit-cache>=0.1.0
+
+# # File handling
+# # io
+# # tempfile
+
+# # Progress tracking
+# stqdm>=0.0.5
+# openai>= 1.108.1
+# # Additional utilities for better UI
+# # extra-streamlit-components>=0.1.60
+# # streamlit-elements>=0.1.81
+
+# ----------------------------------------------------------------------------------------------
 # Core Dependencies for Tender Processing System
 # Location: requirements.txt (project root)
 
@@ -5,6 +86,7 @@
 beautifulsoup4>=4.12.0
 lxml>=4.9.0
 streamlit>=1.41.0
+
 # Excel Processing  
 pandas>=2.0.0
 openpyxl>=3.1.0
@@ -27,19 +109,15 @@ requests>=2.31.0
 
 # Date/Time Processing
 python-dateutil>=2.8.0
+jdatetime>=4.1.0  # Persian calendar support
 
-# AI Integration (Optional - install based on chosen provider)
-# openai>=1.0.0              # For OpenAI GPT models
-# anthropic>=0.7.0           # For Claude models  
-# langchain>=0.1.0           # For LangChain framework
+# AI Integration
+openai>= 1.108.1
 
-# Email Automation (Windows - for Outlook integration)
-# pywin32>=306               # Windows COM automation
-# exchangelib>=5.0.0         # Exchange/Outlook integration
-
-# Alternative Email (Cross-platform)
-# smtplib                    # Built-in Python module
-# email-validator>=2.0.0    # Email validation
+# Web Application Requirements
+streamlit-option-menu>=0.3.6
+plotly>=5.17.0
+stqdm>=0.0.5
 
 # Testing
 pytest>=7.4.0
@@ -53,27 +131,4 @@ mypy>=1.5.0                # Type checking
 # Optional: Advanced Features
 schedule>=1.2.0            # Task scheduling
 watchdog>=3.0.0            # File system monitoring
-tqdm>=4.65.0               # Progress bars    
-# Web Application Requirements
-# Add these to your existing requirements.txt
-
-# Core web framework
-streamlit-option-menu>=0.3.6
-
-# UI components
-
-plotly>=5.17.0
-
-# Performance optimization
-# streamlit-cache>=0.1.0
-
-# File handling
-# io
-# tempfile
-
-# Progress tracking
-stqdm>=0.0.5
-openai>= 1.108.1
-# Additional utilities for better UI
-# extra-streamlit-components>=0.1.60
-# streamlit-elements>=0.1.81
+tqdm>=4.65.0               # Progress bars
