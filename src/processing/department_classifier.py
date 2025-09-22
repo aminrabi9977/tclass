@@ -1109,7 +1109,7 @@ class DepartmentClassifier:
                 self.client = OpenAI(api_key=api_key)
             
             # Fixed model name - should be "gpt-4o" not "gpt-5-mini"
-            self.model = "gpt-4o"
+            self.model = "gpt-5-mini"
             logger.info("Department classifier initialized successfully")
         except Exception as e:
             logger.error(f"Error initializing department classifier: {e}")
