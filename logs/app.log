@@ -3345,3 +3345,1410 @@ ModuleNotFoundError: No module named 'openai'
 2025-09-22 11:09:42,533 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_110942_dept_classified_20250922_110938.xlsx
 2025-09-22 11:09:42,533 - classify_departments - INFO - Department classification completed successfully!
 2025-09-22 11:09:42,534 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_110938.xlsx
+2025-09-22 14:00:10,955 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_135953_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:00:10,956 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_135953_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:00:11,086 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_140010.xlsx
+2025-09-22 14:00:11,086 - process_tenders - INFO - Extracted 270 records with 3 columns
+2025-09-22 14:00:11,259 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 14:00:11,259 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_140010.xlsx
+2025-09-22 14:00:11,289 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:00:11,289 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:00:11,289 - src.processing.ai_processor - INFO - Large dataset detected (270 items). Processing in batches...
+2025-09-22 14:00:11,289 - src.processing.ai_processor - INFO - Processing 270 tenders in 6 batches of 50
+2025-09-22 14:00:11,298 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:00:11,298 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:00:44,951 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:00:44,964 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:00:44,964 - src.processing.ai_processor - INFO - Found 3 consulting tenders in this batch
+2025-09-22 14:00:46,989 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:00:46,989 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:01:08,118 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:01:08,133 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:01:08,134 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-22 14:01:10,155 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:01:10,156 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:01:30,308 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:01:30,312 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:01:30,312 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 14:01:32,331 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:01:32,331 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:02:09,238 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:02:09,253 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:02:09,254 - src.processing.ai_processor - INFO - Found 4 consulting tenders in this batch
+2025-09-22 14:02:11,287 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:02:11,288 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:02:21,612 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:02:21,630 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:02:21,631 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 14:02:23,649 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:02:23,650 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:02:31,679 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:02:31,694 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:02:31,694 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 14:02:31,703 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_135953_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:02:31,784 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_140010.xlsx
+2025-09-22 14:02:31,797 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_135953_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:02:31,809 - src.processing.ai_processor - INFO - Successfully processed 270 tenders, filtered to 16 consulting tenders
+2025-09-22 14:02:31,810 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_135953_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:02:31,812 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_140231_full_filtered_20250922_135953_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:02:31,812 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 14:02:31,812 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_135953_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:10:41,273 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_141024_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:10:41,274 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_141024_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:10:41,389 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_141041.xlsx
+2025-09-22 14:10:41,389 - process_tenders - INFO - Extracted 270 records with 3 columns
+2025-09-22 14:10:41,555 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 14:10:41,556 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_141041.xlsx
+2025-09-22 14:10:41,584 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:10:41,585 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:10:41,585 - src.processing.ai_processor - INFO - Large dataset detected (270 items). Processing in batches...
+2025-09-22 14:10:41,585 - src.processing.ai_processor - INFO - Processing 270 tenders in 6 batches of 50
+2025-09-22 14:10:41,592 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:10:41,592 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:11:18,960 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:11:18,974 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:11:18,974 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-22 14:11:20,992 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:11:20,993 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:11:36,771 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:11:36,776 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:11:36,776 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-22 14:11:38,789 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:11:38,793 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:12:04,427 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:12:04,432 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:12:04,432 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 14:12:06,445 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:12:06,448 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:12:21,036 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:12:21,039 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:12:21,039 - src.processing.ai_processor - INFO - Found 3 consulting tenders in this batch
+2025-09-22 14:12:23,052 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:12:23,056 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:12:38,686 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:12:38,691 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:12:38,691 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 14:12:40,706 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:12:40,708 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:12:52,506 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:12:52,513 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:12:52,513 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 14:12:52,521 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_141024_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:12:52,595 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_141041.xlsx
+2025-09-22 14:12:52,608 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_141024_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:12:52,620 - src.processing.ai_processor - INFO - Successfully processed 270 tenders, filtered to 14 consulting tenders
+2025-09-22 14:12:52,620 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_141024_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:12:52,623 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_141252_full_filtered_20250922_141024_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:12:52,623 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 14:12:52,623 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_141024_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:25:04,191 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_142447_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:25:04,192 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_142447_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:25:04,306 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_142504.xlsx
+2025-09-22 14:25:04,306 - process_tenders - INFO - Extracted 270 records with 3 columns
+2025-09-22 14:25:04,811 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 14:25:04,811 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_142504.xlsx
+2025-09-22 14:25:04,840 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:25:04,841 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:25:04,841 - src.processing.ai_processor - INFO - Large dataset detected (270 items). Processing in batches...
+2025-09-22 14:25:04,841 - src.processing.ai_processor - INFO - Processing 270 tenders in 6 batches of 50
+2025-09-22 14:25:04,845 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:25:04,845 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:25:08,586 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:08,587 - openai._base_client - INFO - Retrying request to /chat/completions in 0.484170 seconds
+2025-09-22 14:25:10,985 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:10,986 - openai._base_client - INFO - Retrying request to /chat/completions in 0.994146 seconds
+2025-09-22 14:25:13,346 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:23,377 - src.processing.ai_processor - INFO - Attempt 2/3
+2025-09-22 14:25:26,601 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:26,602 - openai._base_client - INFO - Retrying request to /chat/completions in 0.499280 seconds
+2025-09-22 14:25:28,466 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:28,467 - openai._base_client - INFO - Retrying request to /chat/completions in 0.951239 seconds
+2025-09-22 14:25:30,731 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:50,740 - src.processing.ai_processor - INFO - Attempt 3/3
+2025-09-22 14:25:52,829 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:52,830 - openai._base_client - INFO - Retrying request to /chat/completions in 0.438730 seconds
+2025-09-22 14:25:54,686 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:54,687 - openai._base_client - INFO - Retrying request to /chat/completions in 0.846669 seconds
+2025-09-22 14:25:56,818 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:56,829 - src.processing.ai_processor - ERROR - All retry attempts failed
+2025-09-22 14:25:56,842 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:25:56,842 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:25:58,062 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:58,064 - openai._base_client - INFO - Retrying request to /chat/completions in 0.451639 seconds
+2025-09-22 14:25:59,785 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:25:59,786 - openai._base_client - INFO - Retrying request to /chat/completions in 0.855775 seconds
+2025-09-22 14:26:01,917 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:11,924 - src.processing.ai_processor - INFO - Attempt 2/3
+2025-09-22 14:26:13,939 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:13,939 - openai._base_client - INFO - Retrying request to /chat/completions in 0.441271 seconds
+2025-09-22 14:26:15,696 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:15,696 - openai._base_client - INFO - Retrying request to /chat/completions in 0.872818 seconds
+2025-09-22 14:26:18,866 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:38,872 - src.processing.ai_processor - INFO - Attempt 3/3
+2025-09-22 14:26:40,875 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:40,877 - openai._base_client - INFO - Retrying request to /chat/completions in 0.492270 seconds
+2025-09-22 14:26:42,635 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:42,636 - openai._base_client - INFO - Retrying request to /chat/completions in 0.798571 seconds
+2025-09-22 14:26:45,758 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:45,767 - src.processing.ai_processor - ERROR - All retry attempts failed
+2025-09-22 14:26:45,776 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:26:45,776 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:26:47,395 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:47,396 - openai._base_client - INFO - Retrying request to /chat/completions in 0.405261 seconds
+2025-09-22 14:26:48,825 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:26:48,825 - openai._base_client - INFO - Retrying request to /chat/completions in 0.822665 seconds
+2025-09-22 14:26:50,639 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:00,645 - src.processing.ai_processor - INFO - Attempt 2/3
+2025-09-22 14:27:03,560 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:03,561 - openai._base_client - INFO - Retrying request to /chat/completions in 0.480684 seconds
+2025-09-22 14:27:05,041 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:05,042 - openai._base_client - INFO - Retrying request to /chat/completions in 0.931702 seconds
+2025-09-22 14:27:06,976 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:26,999 - src.processing.ai_processor - INFO - Attempt 3/3
+2025-09-22 14:27:29,030 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:29,031 - openai._base_client - INFO - Retrying request to /chat/completions in 0.401543 seconds
+2025-09-22 14:27:30,674 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:30,675 - openai._base_client - INFO - Retrying request to /chat/completions in 0.775972 seconds
+2025-09-22 14:27:33,720 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:33,727 - src.processing.ai_processor - ERROR - All retry attempts failed
+2025-09-22 14:27:33,737 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:27:33,737 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:27:34,838 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:34,839 - openai._base_client - INFO - Retrying request to /chat/completions in 0.464970 seconds
+2025-09-22 14:27:36,776 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:36,776 - openai._base_client - INFO - Retrying request to /chat/completions in 0.948488 seconds
+2025-09-22 14:27:39,213 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:49,230 - src.processing.ai_processor - INFO - Attempt 2/3
+2025-09-22 14:27:51,294 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:51,296 - openai._base_client - INFO - Retrying request to /chat/completions in 0.401134 seconds
+2025-09-22 14:27:52,994 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:27:52,994 - openai._base_client - INFO - Retrying request to /chat/completions in 0.947680 seconds
+2025-09-22 14:27:55,211 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:28:15,217 - src.processing.ai_processor - INFO - Attempt 3/3
+2025-09-22 14:28:17,006 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:28:17,006 - openai._base_client - INFO - Retrying request to /chat/completions in 0.435841 seconds
+2025-09-22 14:28:18,926 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:28:18,927 - openai._base_client - INFO - Retrying request to /chat/completions in 0.850081 seconds
+2025-09-22 14:28:21,076 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-22 14:28:21,081 - src.processing.ai_processor - ERROR - All retry attempts failed
+2025-09-22 14:35:27,237 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:35:27,238 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:35:27,359 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_143527.xlsx
+2025-09-22 14:35:27,360 - process_tenders - INFO - Extracted 270 records with 3 columns
+2025-09-22 14:35:27,526 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 14:35:27,526 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_143527.xlsx
+2025-09-22 14:35:27,555 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:35:27,556 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:35:27,556 - src.processing.ai_processor - INFO - Large dataset detected (270 items). Processing in batches...
+2025-09-22 14:35:27,556 - src.processing.ai_processor - INFO - Processing 270 tenders in 6 batches of 50
+2025-09-22 14:35:27,563 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:35:27,564 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:36:05,112 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:36:05,130 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:36:05,130 - src.processing.ai_processor - INFO - Found 3 consulting tenders in this batch
+2025-09-22 14:36:07,166 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:36:07,167 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:36:23,492 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:36:23,507 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:36:23,507 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-22 14:36:25,529 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:36:25,529 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:36:44,877 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:36:44,892 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:36:44,893 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 14:36:46,909 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:36:46,909 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:37:01,919 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:37:01,928 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:37:01,929 - src.processing.ai_processor - INFO - Found 3 consulting tenders in this batch
+2025-09-22 14:37:03,946 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:37:03,947 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:37:18,665 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:37:18,678 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:37:18,679 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 14:37:20,700 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:37:20,700 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:37:31,669 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:37:31,683 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:37:31,683 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 14:37:31,693 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:37:31,769 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_143527.xlsx
+2025-09-22 14:37:31,783 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:37:31,795 - src.processing.ai_processor - INFO - Successfully processed 270 tenders, filtered to 15 consulting tenders
+2025-09-22 14:37:31,796 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:37:31,798 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_143731_full_filtered_20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:37:31,798 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 14:37:31,798 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:37:31,821 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:37:31,822 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:37:31,841 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_143731.xlsx
+2025-09-22 14:37:32,006 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-22 14:37:32,006 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_143731.xlsx
+2025-09-22 14:37:32,013 - src.processing.department_classifier - INFO - Classifying 15 tenders by department
+2025-09-22 14:37:32,013 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-22 14:37:32,013 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-22 14:37:56,169 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:37:56,185 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-22 14:37:56,185 - src.processing.department_classifier - ERROR - AI returned empty/null response
+2025-09-22 14:37:56,185 - src.processing.department_classifier - WARNING - Returning empty result due to empty AI response
+2025-09-22 14:37:56,185 - src.processing.department_classifier - WARNING - No department classifications returned from AI
+2025-09-22 14:37:56,185 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_143510_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:37:56,199 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_143731.xlsx
+2025-09-22 14:37:56,215 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_143756_dept_classified_20250922_143731.xlsx
+2025-09-22 14:37:56,215 - classify_departments - INFO - Department classification completed successfully!
+2025-09-22 14:37:56,215 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_143731.xlsx
+2025-09-22 14:44:43,637 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:44:43,638 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:44:43,750 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_144443.xlsx
+2025-09-22 14:44:43,751 - process_tenders - INFO - Extracted 270 records with 3 columns
+2025-09-22 14:44:44,249 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 14:44:44,249 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_144443.xlsx
+2025-09-22 14:44:44,277 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:44:44,277 - src.processing.ai_processor - INFO - Extracted 270 tenders for AI processing
+2025-09-22 14:44:44,278 - src.processing.ai_processor - INFO - Large dataset detected (270 items). Processing in batches...
+2025-09-22 14:44:44,278 - src.processing.ai_processor - INFO - Processing 270 tenders in 6 batches of 50
+2025-09-22 14:44:44,284 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:44:44,285 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:45:15,505 - openai._base_client - INFO - Retrying request to /chat/completions in 0.486222 seconds
+2025-09-22 14:45:43,497 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:45:43,512 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:45:43,512 - src.processing.ai_processor - INFO - Found 3 consulting tenders in this batch
+2025-09-22 14:45:45,547 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:45:45,548 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:46:03,745 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:46:03,752 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:46:03,752 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-22 14:46:05,783 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:46:05,783 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:46:32,566 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:46:32,586 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:46:32,586 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 14:46:34,624 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:46:34,624 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:46:50,692 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:46:50,706 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:46:50,706 - src.processing.ai_processor - INFO - Found 3 consulting tenders in this batch
+2025-09-22 14:46:52,744 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:46:52,744 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:47:00,836 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:47:00,861 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:47:00,861 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 14:47:02,884 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:47:02,885 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:47:25,401 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:47:25,410 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:47:25,410 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 14:47:25,421 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:47:25,493 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_144443.xlsx
+2025-09-22 14:47:25,508 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:47:25,521 - src.processing.ai_processor - INFO - Successfully processed 270 tenders, filtered to 15 consulting tenders
+2025-09-22 14:47:25,522 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:47:25,524 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_144725_full_filtered_20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:47:25,524 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 14:47:25,524 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:47:25,529 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:47:25,529 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:47:25,549 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_144725.xlsx
+2025-09-22 14:47:26,047 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-22 14:47:26,047 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_144725.xlsx
+2025-09-22 14:47:26,055 - src.processing.department_classifier - INFO - Classifying 15 tenders by department
+2025-09-22 14:47:26,055 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-22 14:47:26,055 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-22 14:47:46,472 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:47:46,481 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-22 14:47:46,481 - src.processing.department_classifier - INFO - AI Response length: 385
+2025-09-22 14:47:46,490 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 15 tenders
+2025-09-22 14:47:46,491 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_144427_52385_1404-06-30 ”«⁄  16 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-22 14:47:46,502 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_144725.xlsx
+2025-09-22 14:47:46,520 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_144746_dept_classified_20250922_144725.xlsx
+2025-09-22 14:47:46,521 - classify_departments - INFO - Department classification completed successfully!
+2025-09-22 14:47:46,521 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_144725.xlsx
+2025-09-22 14:53:49,488 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:53:49,488 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:53:49,574 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_145349.xlsx
+2025-09-22 14:53:49,574 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-22 14:53:50,076 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 14:53:50,077 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_145349.xlsx
+2025-09-22 14:53:50,099 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 14:53:50,099 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 14:53:50,100 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-22 14:53:50,100 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-22 14:53:50,105 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:53:50,105 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:54:15,993 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:54:16,003 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:54:16,003 - src.processing.ai_processor - INFO - Found 8 consulting tenders in this batch
+2025-09-22 14:54:18,028 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:54:18,028 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:54:24,149 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:54:24,154 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:54:24,154 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 14:54:26,188 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:54:26,189 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:54:54,753 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:54:54,774 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:54:54,775 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 14:54:56,814 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:54:56,815 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:55:21,783 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:55:21,803 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:55:21,803 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 14:55:23,831 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 14:55:23,832 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 14:55:28,079 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:55:28,092 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 14:55:28,092 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 14:55:28,105 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:55:28,159 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_145349.xlsx
+2025-09-22 14:55:28,172 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:55:28,183 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 15 consulting tenders
+2025-09-22 14:55:28,184 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:55:28,186 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_145528_full_filtered_20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:55:28,186 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 14:55:28,186 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:55:28,189 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:55:28,189 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:55:28,210 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_145528.xlsx
+2025-09-22 14:55:28,711 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-22 14:55:28,711 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_145528.xlsx
+2025-09-22 14:55:28,723 - src.processing.department_classifier - INFO - Classifying 15 tenders by department
+2025-09-22 14:55:28,723 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-22 14:55:28,723 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-22 14:55:48,787 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 14:55:48,805 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-22 14:55:48,805 - src.processing.department_classifier - INFO - AI Response length: 334
+2025-09-22 14:55:48,816 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 15 tenders
+2025-09-22 14:55:48,816 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_145338_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 14:55:48,827 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_145528.xlsx
+2025-09-22 14:55:48,843 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_145548_dept_classified_20250922_145528.xlsx
+2025-09-22 14:55:48,843 - classify_departments - INFO - Department classification completed successfully!
+2025-09-22 14:55:48,844 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_145528.xlsx
+2025-09-22 15:58:46,004 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 15:58:46,004 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 15:58:46,088 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_155846.xlsx
+2025-09-22 15:58:46,089 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-22 15:58:46,604 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 15:58:46,604 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_155846.xlsx
+2025-09-22 15:58:46,629 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 15:58:46,629 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 15:58:46,629 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-22 15:58:46,630 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-22 15:58:46,642 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 15:58:46,642 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 15:59:12,902 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 15:59:12,916 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 15:59:12,916 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 15:59:14,938 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 15:59:14,939 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 15:59:28,972 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 15:59:28,994 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 15:59:28,994 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 15:59:31,013 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 15:59:31,013 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 15:59:52,473 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 15:59:52,499 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 15:59:52,500 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 15:59:54,537 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 15:59:54,538 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:00:14,338 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:00:14,355 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:00:14,356 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 16:00:16,392 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:00:16,392 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:00:23,787 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:00:23,796 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:00:23,796 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 16:00:23,811 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:00:23,865 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_155846.xlsx
+2025-09-22 16:00:23,879 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:00:23,890 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 14 consulting tenders
+2025-09-22 16:00:23,891 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:00:23,893 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_160023_full_filtered_20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:00:23,893 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 16:00:23,893 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:00:23,906 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:00:23,906 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:00:23,926 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_160023.xlsx
+2025-09-22 16:00:24,426 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-22 16:00:24,426 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_160023.xlsx
+2025-09-22 16:00:24,480 - src.processing.department_classifier - INFO - Classifying 14 tenders by department
+2025-09-22 16:00:24,480 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-22 16:00:24,481 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-22 16:00:50,805 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:00:50,833 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-22 16:00:50,833 - src.processing.department_classifier - INFO - AI Response length: 344
+2025-09-22 16:00:50,843 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 14 tenders
+2025-09-22 16:00:50,843 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_155832_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:00:50,854 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_160023.xlsx
+2025-09-22 16:00:50,869 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_160050_dept_classified_20250922_160023.xlsx
+2025-09-22 16:00:50,869 - classify_departments - INFO - Department classification completed successfully!
+2025-09-22 16:00:50,870 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_160023.xlsx
+2025-09-22 16:13:25,299 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:13:25,300 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:13:25,384 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_161325.xlsx
+2025-09-22 16:13:25,384 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-22 16:13:25,903 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 16:13:25,903 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_161325.xlsx
+2025-09-22 16:13:25,926 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 16:13:25,926 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 16:13:25,927 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-22 16:13:25,927 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-22 16:13:25,933 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:13:25,934 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:13:57,965 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:13:57,974 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:13:57,974 - src.processing.ai_processor - INFO - Found 9 consulting tenders in this batch
+2025-09-22 16:14:00,008 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:14:00,009 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:14:11,984 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:14:12,006 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:14:12,008 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 16:14:14,030 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:14:14,031 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:14:39,466 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:14:39,494 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:14:39,494 - src.processing.ai_processor - INFO - Found 8 consulting tenders in this batch
+2025-09-22 16:14:41,530 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:14:41,530 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:14:59,951 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:14:59,977 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:14:59,977 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 16:15:02,009 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:15:02,010 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:15:07,282 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:15:07,291 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:15:07,291 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 16:15:07,307 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:15:07,361 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_161325.xlsx
+2025-09-22 16:15:07,376 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:15:07,388 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 18 consulting tenders
+2025-09-22 16:15:07,389 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:15:07,391 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_161507_full_filtered_20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:15:07,391 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 16:15:07,391 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:15:07,396 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:15:07,396 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:15:07,418 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_161507.xlsx
+2025-09-22 16:15:07,932 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-22 16:15:07,932 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_161507.xlsx
+2025-09-22 16:15:07,986 - src.processing.department_classifier - INFO - Classifying 18 tenders by department
+2025-09-22 16:15:07,987 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-22 16:15:07,987 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-22 16:15:32,504 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:15:32,521 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-22 16:15:32,521 - src.processing.department_classifier - ERROR - AI returned empty/null response
+2025-09-22 16:15:32,521 - src.processing.department_classifier - WARNING - Returning empty result due to empty AI response
+2025-09-22 16:15:32,521 - src.processing.department_classifier - WARNING - No department classifications returned from AI
+2025-09-22 16:15:32,522 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_161312_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:15:32,533 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_161507.xlsx
+2025-09-22 16:15:32,550 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_161532_dept_classified_20250922_161507.xlsx
+2025-09-22 16:15:32,550 - classify_departments - INFO - Department classification completed successfully!
+2025-09-22 16:15:32,551 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_161507.xlsx
+2025-09-22 16:32:08,251 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:32:08,251 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:32:08,340 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_163208.xlsx
+2025-09-22 16:32:08,340 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-22 16:32:08,854 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 16:32:08,854 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_163208.xlsx
+2025-09-22 16:32:08,877 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 16:32:08,877 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 16:32:08,878 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-22 16:32:08,878 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-22 16:32:08,884 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:32:08,884 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:32:40,364 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:32:40,378 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:32:40,378 - src.processing.ai_processor - INFO - Found 7 consulting tenders in this batch
+2025-09-22 16:32:42,417 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:32:42,418 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:32:50,608 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:32:50,615 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:32:50,616 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 16:32:52,653 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:32:52,653 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:33:17,621 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:33:17,648 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:33:17,649 - src.processing.ai_processor - INFO - Found 5 consulting tenders in this batch
+2025-09-22 16:33:19,689 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:33:19,689 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:33:33,429 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:33:33,458 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:33:33,458 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 16:33:35,497 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:33:35,498 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:33:39,122 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:33:39,131 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:33:39,132 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 16:33:39,147 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:33:39,200 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_163208.xlsx
+2025-09-22 16:33:39,214 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:33:39,225 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 14 consulting tenders
+2025-09-22 16:33:39,226 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:33:39,228 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_163339_full_filtered_20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:33:39,229 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 16:33:39,229 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:33:39,233 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:33:39,234 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:33:39,252 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_163339.xlsx
+2025-09-22 16:33:39,766 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-22 16:33:39,766 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_163339.xlsx
+2025-09-22 16:33:39,818 - src.processing.department_classifier - INFO - Classifying 14 tenders by department
+2025-09-22 16:33:39,818 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-22 16:33:39,819 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-22 16:34:11,660 - openai._base_client - INFO - Retrying request to /chat/completions in 0.459366 seconds
+2025-09-22 16:34:34,401 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:34:34,407 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-22 16:34:34,407 - src.processing.department_classifier - INFO - AI Response length: 351
+2025-09-22 16:34:34,416 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 14 tenders
+2025-09-22 16:34:34,417 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163155_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:34:34,427 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_163339.xlsx
+2025-09-22 16:34:34,443 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_163434_dept_classified_20250922_163339.xlsx
+2025-09-22 16:34:34,443 - classify_departments - INFO - Department classification completed successfully!
+2025-09-22 16:34:34,444 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_163339.xlsx
+2025-09-22 16:39:10,250 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:39:10,250 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:39:10,336 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_163910.xlsx
+2025-09-22 16:39:10,337 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-22 16:39:10,851 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 16:39:10,851 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_163910.xlsx
+2025-09-22 16:39:10,873 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 16:39:10,873 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 16:39:10,873 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-22 16:39:10,874 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-22 16:39:10,879 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:39:10,879 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:39:38,668 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:39:38,694 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:39:38,694 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 16:39:40,723 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:39:40,725 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:39:47,659 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:39:47,674 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:39:47,674 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 16:39:49,716 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:39:49,716 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:40:11,632 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:40:11,651 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:40:11,651 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 16:40:13,691 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:40:13,691 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:40:31,397 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:40:31,416 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:40:31,416 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 16:40:33,452 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:40:33,452 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:40:43,418 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:40:43,427 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:40:43,427 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 16:40:43,443 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:40:43,496 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_163910.xlsx
+2025-09-22 16:40:43,509 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:40:43,520 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 13 consulting tenders
+2025-09-22 16:40:43,521 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:40:43,523 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_164043_full_filtered_20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:40:43,523 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 16:40:43,523 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:40:43,526 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:40:43,527 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:40:43,545 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_164043.xlsx
+2025-09-22 16:40:44,060 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-22 16:40:44,060 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_164043.xlsx
+2025-09-22 16:40:44,072 - src.processing.department_classifier - INFO - Classifying 13 tenders by department
+2025-09-22 16:40:44,072 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-22 16:40:44,072 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-22 16:41:07,002 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:41:07,010 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-22 16:41:07,010 - src.processing.department_classifier - INFO - AI Response length: 287
+2025-09-22 16:41:07,021 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 13 tenders
+2025-09-22 16:41:07,021 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_163858_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:41:07,031 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_164043.xlsx
+2025-09-22 16:41:07,047 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_164107_dept_classified_20250922_164043.xlsx
+2025-09-22 16:41:07,047 - classify_departments - INFO - Department classification completed successfully!
+2025-09-22 16:41:07,049 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_164043.xlsx
+2025-09-22 16:43:16,518 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:43:16,518 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:43:16,602 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_164316.xlsx
+2025-09-22 16:43:16,602 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-22 16:43:17,123 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-22 16:43:17,123 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250922_164316.xlsx
+2025-09-22 16:43:17,146 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 16:43:17,146 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-22 16:43:17,147 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-22 16:43:17,147 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-22 16:43:17,153 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:43:17,153 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:43:47,843 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:43:47,852 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:43:47,852 - src.processing.ai_processor - INFO - Found 9 consulting tenders in this batch
+2025-09-22 16:43:49,887 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:43:49,888 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:44:05,255 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:44:05,271 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:44:05,272 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-22 16:44:07,299 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:44:07,300 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:44:30,040 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:44:30,068 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:44:30,068 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-22 16:44:32,110 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:44:32,110 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:44:50,712 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:44:50,741 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:44:50,741 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 16:44:52,779 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-22 16:44:52,780 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-22 16:44:58,645 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:44:58,666 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-22 16:44:58,666 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-22 16:44:58,677 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:44:58,732 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250922_164316.xlsx
+2025-09-22 16:44:58,746 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:44:58,757 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 16 consulting tenders
+2025-09-22 16:44:58,758 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:44:58,761 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250922_164458_full_filtered_20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:44:58,761 - process_tenders - INFO - AI processing completed successfully!
+2025-09-22 16:44:58,762 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:44:58,766 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:44:58,767 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:44:58,787 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_164458.xlsx
+2025-09-22 16:44:59,314 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-22 16:44:59,314 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250922_164458.xlsx
+2025-09-22 16:44:59,370 - src.processing.department_classifier - INFO - Classifying 16 tenders by department
+2025-09-22 16:44:59,370 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-22 16:44:59,371 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-22 16:45:19,901 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-22 16:45:19,915 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-22 16:45:19,915 - src.processing.department_classifier - ERROR - AI returned empty/null response
+2025-09-22 16:45:19,915 - src.processing.department_classifier - WARNING - Returning empty result due to empty AI response
+2025-09-22 16:45:19,916 - src.processing.department_classifier - WARNING - No department classifications returned from AI
+2025-09-22 16:45:19,916 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250922_164304_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-22 16:45:19,927 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_164458.xlsx
+2025-09-22 16:45:19,942 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250922_164519_dept_classified_20250922_164458.xlsx
+2025-09-22 16:45:19,943 - classify_departments - INFO - Department classification completed successfully!
+2025-09-22 16:45:19,943 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250922_164458.xlsx
+2025-09-23 08:56:24,933 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:56:24,933 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:56:25,024 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_085624.xlsx
+2025-09-23 08:56:25,024 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-23 08:56:25,538 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 08:56:25,539 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_085624.xlsx
+2025-09-23 08:56:25,563 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 08:56:25,563 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 08:56:25,564 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-23 08:56:25,565 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-23 08:56:25,580 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 08:56:25,580 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 08:56:45,299 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 08:56:45,313 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 08:56:45,313 - src.processing.ai_processor - INFO - Found 7 consulting tenders in this batch
+2025-09-23 08:56:47,340 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 08:56:47,340 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 08:56:57,634 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 08:56:57,663 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 08:56:57,664 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 08:56:59,704 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 08:56:59,704 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 08:57:19,696 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 08:57:19,714 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 08:57:19,715 - src.processing.ai_processor - INFO - Found 8 consulting tenders in this batch
+2025-09-23 08:57:21,748 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 08:57:21,749 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 08:57:34,650 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 08:57:34,673 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 08:57:34,676 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 08:57:36,714 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 08:57:36,714 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 08:57:41,794 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 08:57:41,824 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 08:57:41,824 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 08:57:41,839 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:57:41,894 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250923_085624.xlsx
+2025-09-23 08:57:41,908 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:57:41,920 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 16 consulting tenders
+2025-09-23 08:57:41,921 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:57:41,924 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250923_085741_full_filtered_20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:57:41,924 - process_tenders - INFO - AI processing completed successfully!
+2025-09-23 08:57:41,924 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:57:41,936 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:57:41,937 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:57:42,006 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_085741.xlsx
+2025-09-23 08:57:42,521 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-23 08:57:42,521 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_085741.xlsx
+2025-09-23 08:57:42,529 - src.processing.department_classifier - INFO - Classifying 16 tenders by department
+2025-09-23 08:57:42,529 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-23 08:57:42,529 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-23 08:58:11,439 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 08:58:11,470 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-23 08:58:11,471 - src.processing.department_classifier - INFO - AI Response length: 389
+2025-09-23 08:58:11,481 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 16 tenders
+2025-09-23 08:58:11,481 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_085611_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 08:58:11,492 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_085741.xlsx
+2025-09-23 08:58:11,507 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250923_085811_dept_classified_20250923_085741.xlsx
+2025-09-23 08:58:11,508 - classify_departments - INFO - Department classification completed successfully!
+2025-09-23 08:58:11,509 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_085741.xlsx
+2025-09-23 10:07:10,298 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:07:10,299 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:07:10,551 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_100710.xlsx
+2025-09-23 10:07:10,551 - process_tenders - INFO - Extracted 624 records with 3 columns
+2025-09-23 10:07:11,011 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 10:07:11,011 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_100710.xlsx
+2025-09-23 10:07:11,073 - src.processing.ai_processor - INFO - Extracted 624 tenders for AI processing
+2025-09-23 10:07:11,073 - src.processing.ai_processor - INFO - Extracted 624 tenders for AI processing
+2025-09-23 10:07:11,074 - src.processing.ai_processor - INFO - Large dataset detected (624 items). Processing in batches...
+2025-09-23 10:07:11,074 - src.processing.ai_processor - INFO - Processing 624 tenders in 13 batches of 50
+2025-09-23 10:07:11,086 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:07:11,086 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:07:42,951 - openai._base_client - INFO - Retrying request to /chat/completions in 0.466493 seconds
+2025-09-23 10:08:11,709 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:08:11,726 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:08:11,726 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 10:08:13,756 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:08:13,756 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:08:42,596 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:08:42,602 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:08:42,602 - src.processing.ai_processor - INFO - Found 5 consulting tenders in this batch
+2025-09-23 10:08:44,621 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:08:44,622 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:09:06,193 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:09:06,200 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:09:06,200 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 10:09:08,234 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:09:08,235 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:09:24,762 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:09:24,771 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:09:24,772 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-23 10:09:26,811 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:09:26,811 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:09:38,164 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:09:38,192 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:09:38,192 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 10:09:40,233 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:09:40,234 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:09:58,152 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:09:58,171 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:09:58,171 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 10:10:00,209 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:10:00,210 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:10:18,336 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:10:18,351 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:10:18,351 - src.processing.ai_processor - INFO - Found 4 consulting tenders in this batch
+2025-09-23 10:10:20,384 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:10:20,386 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:10:41,105 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:10:41,125 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:10:41,125 - src.processing.ai_processor - INFO - Found 9 consulting tenders in this batch
+2025-09-23 10:10:43,163 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:10:43,163 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:10:54,827 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:10:54,836 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:10:54,836 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 10:10:56,875 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:10:56,875 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:11:14,358 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:11:14,378 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:11:14,379 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 10:11:16,395 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:11:16,395 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:11:35,778 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:11:35,805 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:11:35,806 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 10:11:37,834 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:11:37,834 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:11:56,934 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:11:56,944 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:11:56,946 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 10:11:58,985 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:11:58,986 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:12:21,003 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:12:21,010 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:12:21,011 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-23 10:12:21,026 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:12:21,190 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250923_100710.xlsx
+2025-09-23 10:12:21,210 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:12:21,231 - src.processing.ai_processor - INFO - Successfully processed 624 tenders, filtered to 36 consulting tenders
+2025-09-23 10:12:21,232 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:12:21,235 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250923_101221_full_filtered_20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:12:21,235 - process_tenders - INFO - AI processing completed successfully!
+2025-09-23 10:12:21,235 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:12:21,242 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:12:21,243 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:12:21,274 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_101221.xlsx
+2025-09-23 10:12:21,725 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-23 10:12:21,725 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_101221.xlsx
+2025-09-23 10:12:21,735 - src.processing.department_classifier - INFO - Classifying 36 tenders by department
+2025-09-23 10:12:21,735 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-23 10:12:21,736 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-23 10:12:43,578 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:12:43,592 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-23 10:12:43,592 - src.processing.department_classifier - ERROR - AI returned empty/null response
+2025-09-23 10:12:43,592 - src.processing.department_classifier - WARNING - Returning empty result due to empty AI response
+2025-09-23 10:12:43,592 - src.processing.department_classifier - WARNING - No department classifications returned from AI
+2025-09-23 10:12:43,592 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_100632_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 10:12:43,609 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_101221.xlsx
+2025-09-23 10:12:43,634 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250923_101243_dept_classified_20250923_101221.xlsx
+2025-09-23 10:12:43,634 - classify_departments - INFO - Department classification completed successfully!
+2025-09-23 10:12:43,635 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_101221.xlsx
+2025-09-23 10:56:01,308 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:01,308 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:01,393 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_105601.xlsx
+2025-09-23 10:56:01,394 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-23 10:56:01,850 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 10:56:01,850 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_105601.xlsx
+2025-09-23 10:56:01,873 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 10:56:01,873 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 10:56:01,874 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-23 10:56:01,874 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-23 10:56:01,880 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:56:01,881 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:56:03,748 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:56:03,755 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 10:56:03,755 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:56:03,756 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 10:56:05,782 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:56:05,783 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:56:07,491 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:56:07,494 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 10:56:07,495 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:56:07,496 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 10:56:09,527 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:56:09,528 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:56:11,102 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:56:11,105 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 10:56:11,105 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:56:11,106 - src.processing.ai_processor - INFO - Found 5 consulting tenders in this batch
+2025-09-23 10:56:13,152 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:56:13,153 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:56:14,643 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:56:14,648 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 10:56:14,648 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:56:14,649 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 10:56:16,700 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:56:16,701 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:56:17,566 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:56:17,569 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 10:56:17,570 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 10:56:17,571 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 10:56:17,599 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:17,654 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250923_105601.xlsx
+2025-09-23 10:56:17,667 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:17,677 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 12 consulting tenders
+2025-09-23 10:56:17,678 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:17,680 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250923_105617_full_filtered_20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:17,681 - process_tenders - INFO - AI processing completed successfully!
+2025-09-23 10:56:17,681 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:17,697 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:17,698 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:17,716 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_105617.xlsx
+2025-09-23 10:56:18,170 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-23 10:56:18,171 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_105617.xlsx
+2025-09-23 10:56:18,221 - src.processing.department_classifier - INFO - Classifying 12 tenders by department
+2025-09-23 10:56:18,221 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-23 10:56:18,222 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-23 10:56:36,648 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 10:56:36,652 - src.processing.department_classifier - INFO - Received response from language model
+2025-09-23 10:56:36,652 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-23 10:56:36,653 - src.processing.department_classifier - INFO - AI Response length: 274
+2025-09-23 10:56:36,678 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 12 tenders
+2025-09-23 10:56:36,678 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_105548_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:56:36,690 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_105617.xlsx
+2025-09-23 10:56:36,706 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250923_105636_dept_classified_20250923_105617.xlsx
+2025-09-23 10:56:36,706 - classify_departments - INFO - Department classification completed successfully!
+2025-09-23 10:56:36,707 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_105617.xlsx
+2025-09-23 10:58:58,160 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_105845_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:58:58,160 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_105845_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 10:58:58,244 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_105858.xlsx
+2025-09-23 10:58:58,245 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-23 10:58:58,705 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 10:58:58,705 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_105858.xlsx
+2025-09-23 10:58:58,728 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 10:58:58,728 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 10:58:58,729 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-23 10:58:58,729 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-23 10:58:58,736 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 10:58:58,736 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 10:59:29,582 - openai._base_client - INFO - Retrying request to /chat/completions in 0.451395 seconds
+2025-09-23 11:00:00,765 - openai._base_client - INFO - Retrying request to /chat/completions in 0.983767 seconds
+2025-09-23 11:00:42,539 - src.processing.ai_processor - INFO - Attempt 2/3
+2025-09-23 11:01:13,343 - openai._base_client - INFO - Retrying request to /chat/completions in 0.397560 seconds
+2025-09-23 11:01:44,362 - openai._base_client - INFO - Retrying request to /chat/completions in 0.809981 seconds
+2025-09-23 11:02:51,963 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:02:51,964 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:02:52,047 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_110251.xlsx
+2025-09-23 11:02:52,048 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-23 11:02:52,500 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 11:02:52,500 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_110251.xlsx
+2025-09-23 11:02:52,522 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 11:02:52,522 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 11:02:52,523 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-23 11:02:52,523 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-23 11:02:52,530 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:02:52,530 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:03:19,696 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:03:19,701 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:03:19,701 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:03:19,701 - src.processing.ai_processor - INFO - Found 7 consulting tenders in this batch
+2025-09-23 11:03:21,735 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:03:21,735 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:03:28,202 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:03:28,203 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:03:28,203 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:03:28,203 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:03:30,236 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:03:30,237 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:03:53,548 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:03:53,551 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:03:53,551 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:03:53,552 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:03:55,589 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:03:55,589 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:04:15,427 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:04:15,430 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:04:15,431 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:04:15,432 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:04:17,458 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:04:17,458 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:04:21,358 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:04:21,361 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:04:21,361 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:04:21,362 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:04:21,379 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:04:21,432 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250923_110251.xlsx
+2025-09-23 11:04:21,446 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:04:21,457 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 15 consulting tenders
+2025-09-23 11:04:21,458 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:04:21,460 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250923_110421_full_filtered_20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:04:21,460 - process_tenders - INFO - AI processing completed successfully!
+2025-09-23 11:04:21,460 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:04:21,477 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:04:21,477 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:04:21,495 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_110421.xlsx
+2025-09-23 11:04:21,948 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-23 11:04:21,948 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_110421.xlsx
+2025-09-23 11:04:21,955 - src.processing.department_classifier - INFO - Classifying 15 tenders by department
+2025-09-23 11:04:21,955 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-23 11:04:21,956 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-23 11:04:26,358 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:04:26,360 - src.processing.department_classifier - INFO - Received response from language model
+2025-09-23 11:04:26,360 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-23 11:04:26,360 - src.processing.department_classifier - INFO - AI Response length: 460
+2025-09-23 11:04:26,375 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 15 tenders
+2025-09-23 11:04:26,375 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110228_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:04:26,385 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_110421.xlsx
+2025-09-23 11:04:26,402 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250923_110426_dept_classified_20250923_110421.xlsx
+2025-09-23 11:04:26,402 - classify_departments - INFO - Department classification completed successfully!
+2025-09-23 11:04:26,403 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_110421.xlsx
+2025-09-23 11:07:46,723 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:07:46,723 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:07:46,806 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_110746.xlsx
+2025-09-23 11:07:46,807 - process_tenders - INFO - Extracted 204 records with 3 columns
+2025-09-23 11:07:47,257 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 11:07:47,258 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_110746.xlsx
+2025-09-23 11:07:47,281 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 11:07:47,281 - src.processing.ai_processor - INFO - Extracted 204 tenders for AI processing
+2025-09-23 11:07:47,282 - src.processing.ai_processor - INFO - Large dataset detected (204 items). Processing in batches...
+2025-09-23 11:07:47,282 - src.processing.ai_processor - INFO - Processing 204 tenders in 5 batches of 50
+2025-09-23 11:07:47,288 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:07:47,288 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:08:16,366 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:08:16,371 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:08:16,371 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:08:16,371 - src.processing.ai_processor - INFO - Found 7 consulting tenders in this batch
+2025-09-23 11:08:18,406 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:08:18,406 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:08:33,482 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:08:33,483 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:08:33,483 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:08:33,483 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:08:35,517 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:08:35,517 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:08:51,570 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:08:51,573 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:08:51,574 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:08:51,575 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:08:53,611 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:08:53,611 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:09:13,504 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:09:13,507 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:09:13,508 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:09:13,509 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:09:15,558 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:09:15,559 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:09:19,980 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:09:19,983 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:09:19,984 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:09:19,984 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:09:20,001 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:09:20,058 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250923_110746.xlsx
+2025-09-23 11:09:20,072 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:09:20,083 - src.processing.ai_processor - INFO - Successfully processed 204 tenders, filtered to 14 consulting tenders
+2025-09-23 11:09:20,084 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:09:20,086 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250923_110920_full_filtered_20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:09:20,086 - process_tenders - INFO - AI processing completed successfully!
+2025-09-23 11:09:20,086 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:09:20,102 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:09:20,103 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:09:20,122 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_110920.xlsx
+2025-09-23 11:09:20,573 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-23 11:09:20,574 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_110920.xlsx
+2025-09-23 11:09:20,630 - src.processing.department_classifier - INFO - Classifying 14 tenders by department
+2025-09-23 11:09:20,630 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-23 11:09:20,631 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-23 11:09:43,045 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:09:43,049 - src.processing.department_classifier - INFO - Received response from language model
+2025-09-23 11:09:43,050 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-23 11:09:43,050 - src.processing.department_classifier - INFO - AI Response length: 314
+2025-09-23 11:09:43,076 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 14 tenders
+2025-09-23 11:09:43,076 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_110734_52385_1404-06-31 ”«⁄  9 ’»Õ - Main.xlsx
+2025-09-23 11:09:43,087 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_110920.xlsx
+2025-09-23 11:09:43,102 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250923_110943_dept_classified_20250923_110920.xlsx
+2025-09-23 11:09:43,102 - classify_departments - INFO - Department classification completed successfully!
+2025-09-23 11:09:43,103 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_110920.xlsx
+2025-09-23 11:15:24,237 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:15:24,237 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:15:24,485 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_111524.xlsx
+2025-09-23 11:15:24,485 - process_tenders - INFO - Extracted 624 records with 3 columns
+2025-09-23 11:15:24,939 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 11:15:24,939 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_111524.xlsx
+2025-09-23 11:15:24,998 - src.processing.ai_processor - INFO - Extracted 624 tenders for AI processing
+2025-09-23 11:15:24,998 - src.processing.ai_processor - INFO - Extracted 624 tenders for AI processing
+2025-09-23 11:15:24,999 - src.processing.ai_processor - INFO - Large dataset detected (624 items). Processing in batches...
+2025-09-23 11:15:24,999 - src.processing.ai_processor - INFO - Processing 624 tenders in 13 batches of 50
+2025-09-23 11:15:25,003 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:15:25,003 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:15:55,896 - openai._base_client - INFO - Retrying request to /chat/completions in 0.461036 seconds
+2025-09-23 11:16:27,133 - openai._base_client - INFO - Retrying request to /chat/completions in 0.880121 seconds
+2025-09-23 11:16:50,404 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:16:50,408 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:16:50,408 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:16:50,409 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:16:52,435 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:16:52,435 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:17:22,889 - openai._base_client - INFO - Retrying request to /chat/completions in 0.485316 seconds
+2025-09-23 11:17:54,219 - openai._base_client - INFO - Retrying request to /chat/completions in 0.926854 seconds
+2025-09-23 11:18:15,410 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:18:15,414 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:18:15,415 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:18:15,415 - src.processing.ai_processor - INFO - Found 4 consulting tenders in this batch
+2025-09-23 11:18:17,437 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:18:17,438 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:18:37,165 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:18:37,168 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:18:37,168 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:18:37,168 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:18:39,186 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:18:39,187 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:18:53,325 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:18:53,326 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:18:53,327 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:18:53,327 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-23 11:18:55,348 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:18:55,349 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:19:12,238 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:19:12,240 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:19:12,240 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:19:12,240 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:19:14,263 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:19:14,263 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:19:28,335 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:19:28,337 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:19:28,338 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:19:28,338 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:19:30,363 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:19:30,364 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:19:55,158 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:19:55,161 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:19:55,161 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:19:55,162 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:19:57,188 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:19:57,189 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:20:26,168 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:20:26,171 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:20:26,172 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:20:26,172 - src.processing.ai_processor - INFO - Found 9 consulting tenders in this batch
+2025-09-23 11:20:28,199 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:20:28,200 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:20:41,973 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:20:41,977 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:20:41,978 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:20:41,979 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:20:44,004 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:20:44,004 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:21:04,505 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:21:04,508 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:21:04,508 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:21:04,509 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:21:06,520 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:21:06,520 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:21:33,007 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:21:33,008 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:21:33,008 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:21:33,008 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:21:35,020 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:21:35,020 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:21:51,132 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:21:51,135 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:21:51,135 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:21:51,136 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:21:53,160 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:21:53,161 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:22:11,693 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:22:11,696 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:22:11,697 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:22:11,697 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:22:11,716 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:22:11,876 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250923_111524.xlsx
+2025-09-23 11:22:11,898 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:22:11,918 - src.processing.ai_processor - INFO - Successfully processed 624 tenders, filtered to 36 consulting tenders
+2025-09-23 11:22:11,919 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:22:11,921 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250923_112211_full_filtered_20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:22:11,922 - process_tenders - INFO - AI processing completed successfully!
+2025-09-23 11:22:11,922 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:22:11,924 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:22:11,925 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:22:11,954 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_112211.xlsx
+2025-09-23 11:22:12,422 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-23 11:22:12,422 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_112211.xlsx
+2025-09-23 11:22:12,432 - src.processing.department_classifier - INFO - Classifying 36 tenders by department
+2025-09-23 11:22:12,433 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-23 11:22:12,433 - src.processing.department_classifier - INFO - Attempt 1/3
+2025-09-23 11:22:34,656 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:22:34,660 - src.processing.department_classifier - INFO - Received response from language model
+2025-09-23 11:22:34,660 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-23 11:22:34,661 - src.processing.department_classifier - ERROR - AI returned empty/null response
+2025-09-23 11:22:34,661 - src.processing.department_classifier - WARNING - Returning empty result due to empty AI response
+2025-09-23 11:22:34,662 - src.processing.department_classifier - WARNING - No department classifications returned from AI
+2025-09-23 11:22:34,663 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_111448_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:22:34,684 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_112211.xlsx
+2025-09-23 11:22:34,710 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250923_112234_dept_classified_20250923_112211.xlsx
+2025-09-23 11:22:34,710 - classify_departments - INFO - Department classification completed successfully!
+2025-09-23 11:22:34,710 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_112211.xlsx
+2025-09-23 11:37:05,230 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:37:05,230 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:37:05,479 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_113705.xlsx
+2025-09-23 11:37:05,479 - process_tenders - INFO - Extracted 624 records with 3 columns
+2025-09-23 11:37:05,946 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 11:37:05,946 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_113705.xlsx
+2025-09-23 11:37:06,006 - src.processing.ai_processor - INFO - Extracted 624 tenders for AI processing
+2025-09-23 11:37:06,006 - src.processing.ai_processor - INFO - Extracted 624 tenders for AI processing
+2025-09-23 11:37:06,007 - src.processing.ai_processor - INFO - Large dataset detected (624 items). Processing in batches...
+2025-09-23 11:37:06,007 - src.processing.ai_processor - INFO - Processing 624 tenders in 13 batches of 50
+2025-09-23 11:37:06,014 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:37:06,014 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:37:37,058 - openai._base_client - INFO - Retrying request to /chat/completions in 0.401839 seconds
+2025-09-23 11:38:06,692 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:38:06,699 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:38:06,699 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:38:06,699 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:38:08,728 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:38:08,729 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:38:38,637 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:38:38,640 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:38:38,641 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:38:38,641 - src.processing.ai_processor - INFO - Found 5 consulting tenders in this batch
+2025-09-23 11:38:40,688 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:38:40,688 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:39:06,371 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:39:06,374 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:39:06,375 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:39:06,376 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:39:08,422 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:39:08,422 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:39:27,196 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:39:27,200 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:39:27,201 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:39:27,203 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-23 11:39:29,249 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:39:29,250 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:39:50,210 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:39:50,213 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:39:50,214 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:39:50,215 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:39:52,257 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:39:52,257 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:40:10,770 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:40:10,773 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:40:10,773 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:40:10,774 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:40:12,814 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:40:12,814 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:40:32,798 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:40:32,802 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:40:32,803 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:40:32,803 - src.processing.ai_processor - INFO - Found 4 consulting tenders in this batch
+2025-09-23 11:40:34,850 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:40:34,851 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:41:05,281 - openai._base_client - INFO - Retrying request to /chat/completions in 0.385793 seconds
+2025-09-23 11:41:31,433 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:41:31,436 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:41:31,437 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:41:31,438 - src.processing.ai_processor - INFO - Found 9 consulting tenders in this batch
+2025-09-23 11:41:33,483 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:41:33,484 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:41:43,265 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:41:43,268 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:41:43,268 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:41:43,269 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:41:45,292 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:41:45,293 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:42:06,582 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:42:06,585 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:42:06,586 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:42:06,587 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:42:08,631 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:42:08,631 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:42:23,229 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:42:23,232 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:42:23,233 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:42:23,234 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:42:25,274 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:42:25,274 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:42:40,176 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:42:40,179 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:42:40,180 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:42:40,180 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:42:42,216 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:42:42,216 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:42:54,646 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:42:54,650 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:42:54,650 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:42:54,651 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-23 11:42:54,674 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:42:54,835 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250923_113705.xlsx
+2025-09-23 11:42:54,858 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:42:54,878 - src.processing.ai_processor - INFO - Successfully processed 624 tenders, filtered to 36 consulting tenders
+2025-09-23 11:42:54,879 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:42:54,882 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250923_114254_full_filtered_20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:42:54,882 - process_tenders - INFO - AI processing completed successfully!
+2025-09-23 11:42:54,882 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:42:54,899 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:42:54,900 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_113628_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:42:54,929 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_114254.xlsx
+2025-09-23 11:42:55,388 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-23 11:42:55,388 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_114254.xlsx
+2025-09-23 11:42:55,399 - src.processing.department_classifier - INFO - Classifying 36 tenders by department
+2025-09-23 11:42:55,399 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-23 11:42:55,399 - src.processing.department_classifier - INFO - Attempt 1/5
+2025-09-23 11:43:26,115 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:43:26,118 - src.processing.department_classifier - WARNING - Attempt 1: Received empty response, retrying...
+2025-09-23 11:43:41,132 - src.processing.department_classifier - INFO - Attempt 2/5
+2025-09-23 11:44:11,944 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:44:11,947 - src.processing.department_classifier - WARNING - Attempt 2: Received empty response, retrying...
+2025-09-23 11:44:41,964 - src.processing.department_classifier - INFO - Attempt 3/5
+2025-09-23 11:45:13,222 - openai._base_client - INFO - Retrying request to /chat/completions in 0.474818 seconds
+2025-09-23 11:45:44,900 - openai._base_client - INFO - Retrying request to /chat/completions in 0.937587 seconds
+2025-09-23 11:52:19,083 - process_tenders - INFO - Processing file: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:52:19,084 - process_tenders - INFO - Preparing data from C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:52:19,330 - process_tenders - INFO - Extracted data saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_115219.xlsx
+2025-09-23 11:52:19,330 - process_tenders - INFO - Extracted 624 records with 3 columns
+2025-09-23 11:52:19,799 - src.processing.ai_processor - INFO - AI processor initialized successfully
+2025-09-23 11:52:19,799 - src.processing.ai_processor - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\extracted_20250923_115219.xlsx
+2025-09-23 11:52:19,856 - src.processing.ai_processor - INFO - Extracted 624 tenders for AI processing
+2025-09-23 11:52:19,856 - src.processing.ai_processor - INFO - Extracted 624 tenders for AI processing
+2025-09-23 11:52:19,856 - src.processing.ai_processor - INFO - Large dataset detected (624 items). Processing in batches...
+2025-09-23 11:52:19,856 - src.processing.ai_processor - INFO - Processing 624 tenders in 13 batches of 50
+2025-09-23 11:52:19,861 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:52:19,861 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:52:50,818 - openai._base_client - INFO - Retrying request to /chat/completions in 0.437721 seconds
+2025-09-23 11:53:22,079 - openai._base_client - INFO - Retrying request to /chat/completions in 0.973520 seconds
+2025-09-23 11:53:49,550 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:53:49,560 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:53:49,560 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:53:49,560 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:53:51,578 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:53:51,578 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:54:20,397 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:54:20,400 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:54:20,401 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:54:20,401 - src.processing.ai_processor - INFO - Found 5 consulting tenders in this batch
+2025-09-23 11:54:22,423 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:54:22,423 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:54:42,957 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:54:42,960 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:54:42,961 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:54:42,961 - src.processing.ai_processor - INFO - Found 6 consulting tenders in this batch
+2025-09-23 11:54:44,988 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:54:44,988 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:54:59,293 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:54:59,296 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:54:59,297 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:54:59,297 - src.processing.ai_processor - INFO - Found 2 consulting tenders in this batch
+2025-09-23 11:55:01,324 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:55:01,324 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:55:12,181 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:55:12,184 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:55:12,184 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:55:12,184 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:55:14,202 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:55:14,203 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:55:29,285 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:55:29,288 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:55:29,288 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:55:29,288 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:55:31,315 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:55:31,316 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:55:55,007 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:55:55,009 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:55:55,009 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:55:55,009 - src.processing.ai_processor - INFO - Found 4 consulting tenders in this batch
+2025-09-23 11:55:57,026 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:55:57,026 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:56:20,749 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:56:20,752 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:56:20,753 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:56:20,753 - src.processing.ai_processor - INFO - Found 10 consulting tenders in this batch
+2025-09-23 11:56:22,767 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:56:22,767 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:56:38,460 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:56:38,463 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:56:38,464 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:56:38,465 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:56:40,491 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:56:40,491 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:57:04,538 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:57:04,541 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:57:04,541 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:57:04,541 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:57:06,562 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:57:06,562 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:57:27,125 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:57:27,128 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:57:27,128 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:57:27,129 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:57:29,155 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:57:29,156 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:57:37,339 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:57:37,342 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:57:37,343 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:57:37,343 - src.processing.ai_processor - INFO - Found 0 consulting tenders in this batch
+2025-09-23 11:57:39,370 - src.processing.ai_processor - INFO - Sending request to language model
+2025-09-23 11:57:39,371 - src.processing.ai_processor - INFO - Attempt 1/3
+2025-09-23 11:57:56,508 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:57:56,511 - src.processing.ai_processor - INFO - Received response from language model
+2025-09-23 11:57:56,511 - src.processing.ai_processor - INFO - Parsing language model response
+2025-09-23 11:57:56,512 - src.processing.ai_processor - INFO - Found 1 consulting tenders in this batch
+2025-09-23 11:57:56,524 - src.processing.ai_processor - INFO - Reading source data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\processed\20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:57:56,686 - src.processing.ai_processor - INFO - Saving filtered tenders to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\filtered_extracted_20250923_115219.xlsx
+2025-09-23 11:57:56,707 - src.processing.ai_processor - INFO - Saving full filtered data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\temp\full_filtered_20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:57:56,725 - src.processing.ai_processor - INFO - Successfully processed 624 tenders, filtered to 35 consulting tenders
+2025-09-23 11:57:56,726 - process_tenders - INFO - Moved file from temp to main directory: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:57:56,728 - process_tenders - INFO - File backed up to: C:\Users\rabieii.amin\Desktop\tenderclus\data\backup\cons_filter\cons_filtered_20250923_115756_full_filtered_20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:57:56,728 - process_tenders - INFO - AI processing completed successfully!
+2025-09-23 11:57:56,729 - process_tenders - INFO - Full filtered output: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:57:56,746 - classify_departments - INFO - Using input file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:57:56,746 - classify_departments - INFO - Preparing data for classification from C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:57:56,777 - classify_departments - INFO - Data for classification saved to C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_115756.xlsx
+2025-09-23 11:57:57,247 - src.processing.department_classifier - INFO - Department classifier initialized successfully
+2025-09-23 11:57:57,248 - src.processing.department_classifier - INFO - Reading Excel file: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\temp\dept_extract_20250923_115756.xlsx
+2025-09-23 11:57:57,259 - src.processing.department_classifier - INFO - Classifying 35 tenders by department
+2025-09-23 11:57:57,259 - src.processing.department_classifier - INFO - Sending request to language model
+2025-09-23 11:57:57,259 - src.processing.department_classifier - INFO - Attempt 1/5
+2025-09-23 11:58:03,752 - httpx - INFO - HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-23 11:58:03,763 - src.processing.department_classifier - INFO - Parsing language model response
+2025-09-23 11:58:03,763 - src.processing.department_classifier - INFO - AI Response length: 1106
+2025-09-23 11:58:03,768 - src.processing.department_classifier - INFO - AI Response length: 1106
+2025-09-23 11:58:03,774 - src.processing.department_classifier - INFO - Successfully parsed department classifications for 35 tenders
+2025-09-23 11:58:03,774 - src.processing.department_classifier - INFO - Reading full data from: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\ai_filtered\full_filtered_20250923_115106_52385_1404-06-31 ”«⁄  13 »⁄œ «“ ŸÂ— - Main.xlsx
+2025-09-23 11:58:03,790 - src.processing.department_classifier - INFO - Saving department classified data to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_115756.xlsx
+2025-09-23 11:58:03,812 - classify_departments - INFO - File backed up to: data\backup\dept_class_filter\dept_classified_20250923_115803_dept_classified_20250923_115756.xlsx
+2025-09-23 11:58:03,813 - classify_departments - INFO - Department classification completed successfully!
+2025-09-23 11:58:03,813 - classify_departments - INFO - Output saved to: C:\Users\rabieii.amin\Desktop\tenderclus\data\output\dept_classified\dept_classified_20250923_115756.xlsx

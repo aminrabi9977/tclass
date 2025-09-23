@@ -1480,10 +1480,11 @@ class DepartmentClassifier:
             
             # Send the request to the language model with timeout and retry logic
             logger.info("Sending request to language model")
-            
-            max_retries = 3
-            timeout_seconds = 120  # 2 minutes timeout
-            
+                        
+            max_retries = 5  # Increase retries
+            timeout_seconds = 180  # Increase timeout to 3 minutes
+
+            response = None
             for attempt in range(max_retries):
                 try:
                     logger.info(f"Attempt {attempt + 1}/{max_retries}")
@@ -1494,34 +1495,102 @@ class DepartmentClassifier:
                             {"role": "system", "content": system_prompt},
                             {"role": "user", "content": tsv_data}
                         ],
-                        temperature=0.1,  # Changed from 1 to 0.1 for more consistent JSON output
-                        max_tokens=2000,
-                        timeout=timeout_seconds  # Add timeout
+                        temperature=0.8,
+                        max_tokens=3000,  # Increase token limit
+                        timeout=timeout_seconds
                     )
-                    
-                    logger.info("✅ Received response from language model")
-                    break
-                    
+                    # If using gpt-5-mini fails, try with a fallback model
+                    if attempt == max_retries - 2:  # Second to last attempt
+                        logger.info("Trying with fallback model gpt-4o-mini")
+                        fallback_model = "gpt-4o"
+                        response = self.client.chat.completions.create(
+                            model=fallback_model,
+                            messages=[
+                                {"role": "system", "content": system_prompt},
+                                {"role": "user", "content": tsv_data}
+                            ],
+                            temperature=0.8,
+                            max_tokens=3000,
+                            timeout=timeout_seconds
+                        )
+                    # Validate response immediately
+                    if response and response.choices and len(response.choices) > 0:
+                        response_content = response.choices[0].message.content
+                        if response_content and response_content.strip():
+                            logger.info("✅ Received valid response from language model")
+                            break
+                        else:
+                            logger.warning(f"Attempt {attempt + 1}: Received empty response, retrying...")
+                            response = None
+                    else:
+                        logger.warning(f"Attempt {attempt + 1}: Received invalid response structure, retrying...")
+                        response = None
+                        
                 except Exception as e:
                     logger.error(f"❌ Attempt {attempt + 1} failed: {str(e)}")
-                    if attempt < max_retries - 1:
-                        import time
-                        wait_time = (attempt + 1) * 10  # Wait 10, 20, 30 seconds
-                        logger.info(f"⏳ Waiting {wait_time} seconds before retry...")
-                        time.sleep(wait_time)
-                    else:
-                        logger.error("All retry attempts failed")
-                        raise
+                    response = None
+                    
+                if attempt < max_retries - 1:
+                    import time
+                    wait_time = (attempt + 1) * 15  # Wait 15, 30, 45, 60 seconds
+                    logger.info(f"⏳ Waiting {wait_time} seconds before retry...")
+                    time.sleep(wait_time)
+                else:
+                    logger.error("All retry attempts failed or returned empty responses")
+                    # Return fallback instead of raising exception
+                    logger.info("Creating fallback classifications due to persistent failures")
+                    fallback_map = {}
+                    for tender in tenders_data:
+                        tender_id = str(tender.get('شماره مناقصه در هزاره', ''))
+                        if tender_id:
+                            fallback_map[tender_id] = "سایر"
+                    return fallback_map
+
+            # Additional validation
+            if not response:
+                logger.error("No valid response received after all attempts")
+                fallback_map = {}
+                for tender in tenders_data:
+                    tender_id = str(tender.get('شماره مناقصه در هزاره', ''))
+                    if tender_id:
+                        fallback_map[tender_id] = "سایر"
+                return fallback_map
             
             # Parse the response
             logger.info("Parsing language model response")
             response_text = response.choices[0].message.content
-            
+
             # Check if response is None or empty
             if not response_text:
                 logger.error("AI returned empty/null response")
                 logger.warning("Returning empty result due to empty AI response")
-                return {}
+                # Return fallback classifications instead of empty dict
+                fallback_map = {}
+                for tender in tenders_data:
+                    tender_id = str(tender.get('شماره مناقصه در هزاره', ''))
+                    if tender_id:
+                        fallback_map[tender_id] = "سایر"
+                logger.info(f"Created fallback classifications for {len(fallback_map)} tenders")
+                return fallback_map
+
+            response_text = response_text.strip()
+
+            # ADD DEBUG LOGGING
+            logger.info(f"AI Response length: {len(response_text)}")
+            logger.info(f"AI Response (first 500 chars): {response_text[:500]}")
+
+            # Check if response is still empty after stripping
+            if not response_text:
+                logger.error("AI response is empty after stripping whitespace")
+                logger.warning("Returning empty result due to empty response")
+                # Return fallback classifications instead of empty dict
+                fallback_map = {}
+                for tender in tenders_data:
+                    tender_id = str(tender.get('شماره مناقصه در هزاره', ''))
+                    if tender_id:
+                        fallback_map[tender_id] = "سایر"
+                logger.info(f"Created fallback classifications for {len(fallback_map)} tenders")
+                return fallback_map
             
             response_text = response_text.strip()
             
